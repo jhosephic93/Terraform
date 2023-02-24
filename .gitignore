@@ -1,0 +1,8 @@
+/DEV01/.terraform
+/DEV01/.terraform.lock.hcl
+/DEV01/terraform.tfstate
+/DEV01/terraform.tfstate.backup
+/AWS-Labs/VPC/.terraform
+/AWS-Labs/VPC/.terraform.lock.hcl
+/AWS-Labs/VPC/terraform.tfstate
+/AWS-Labs/VPC/terraform.tfstate.backup
