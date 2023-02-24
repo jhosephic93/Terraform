@@ -23,3 +23,7 @@ terraform plan
 ```terraform
 terraform apply
 ```
+
+## DIAGRAM
+
+![](../VPC/img/vpc.png)
