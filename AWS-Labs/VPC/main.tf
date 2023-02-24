@@ -1,21 +1,11 @@
 module "VPC" {
   source = "./VPC"
-  vpc_cidr_block         = var.vpc_cidr_block
-  name                   = var.name
-  project                = var.project
-  environment            = var.environment
-  InternetGateway        = var.InternetGateway
-  cidr-subnet-public-1a  = var.cidr-subnet-public-1a
-  cidr-subnet-public-1b  = var.cidr-subnet-public-1b
-  name-public-1a         = var.name-public-1a
-  name-public-1b         = var.name-public-1b
-  cidr-subnet-private-1a = var.cidr-subnet-private-1a
-  cidr-subnet-private-1b = var.cidr-subnet-private-1b
-  name-private-1a        = var.name-private-1a
-  name-private-1b        = var.name-private-1b
+  classb_vpc_cidr_block  = var.classb_vpc_cidr_block
+  APID                   = var.APID
+  ASSETID                = var.ASSETID
+  COID                   = var.COID
+  ENV                    = var.ENV
+  SIDP                   = var.SIDP
   aws-zona-1a            = var.aws-zona-1a
   aws-zona-1b            = var.aws-zona-1b
-  route-table-public     = var.route-table-public
-  route-table-private    = var.route-table-private
-  name-security-group    = var.name-security-group
 }
