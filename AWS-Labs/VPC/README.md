@@ -1,4 +1,4 @@
-# Process
+# **1. Process**
 
 1. Init
 
@@ -24,6 +24,6 @@ terraform plan
 terraform apply
 ```
 
-## DIAGRAM
+## **2. DIAGRAM**
 
 ![](../VPC/img/vpc.png)
